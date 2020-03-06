@@ -1,11 +1,14 @@
 img{
     border: 1px solid black;
 }
-video{
-    border: 1px solid black;
-}
 table{
     border: 1px solid black;
+}
+.SoloLearn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 250px;
 }
 .Figuras{
     margin-left: auto;
@@ -60,7 +63,4 @@ table{
     background-color: black;
     width: 1300px;
     height: 600px;
-}
-.y-axis{
-    animation-delay: 2s;
 }
