@@ -22,8 +22,10 @@ p{
     width: 1300px;
     height: 40px;
 }
+.alerta{
+    text-align: center;
+}
 iframe{
     display: block;
-    border: none;
     margin: 0 auto;
 }
