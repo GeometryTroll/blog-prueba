@@ -1,66 +1,29 @@
 img{
     border: 1px solid black;
+    display: block;
 }
 table{
     border: 1px solid black;
 }
+p{
+    text-align: justify;
+    padding: 10px;
+
+}
 .SoloLearn{
     margin-left: auto;
     margin-right: auto;
-    width: 750px;
-    height: 250px;
+    display: block;
 }
-.Figuras{
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid black;
-}
-.F1{
-    background-color: #FF0000;
-    width: 1250px;
-    height: 40px;
-}
-.F2{
-    background-color: #ff7f00;
-    width: 1250px;
-    height: 40px;
-} 
-.F3{
-    background-color: #ffff00;
-    width: 1250px;
-    height: 40px;
-}
-.F4{
-    background-color: #00ff00;
-    width: 1250px;
-    height: 40px;
-}     
-.F5{
-    background-color: #0000ff;
-    width: 1250px;
-    height: 40px;
-}
-.F6{
-    background-color: #ab0082;
-    width: 1250px;
-    height: 40px;
-} 
-.F7{
-    background-color: #8f00ff;
-    width: 1250px;
-    height: 40px;
-}
-.fondo{
+.Fondo{
     margin-left: auto;
     margin-right: auto;
     background-color: black;
     width: 1300px;
     height: 40px;
 }
-.fondo2{
-    margin-left: auto;
-    margin-right: auto;
-    background-color: black;
-    width: 1300px;
-    height: 600px;
+iframe{
+    display: block;
+    border: none;
+    margin: 0 auto;
 }
