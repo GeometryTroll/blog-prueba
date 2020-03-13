@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 img{
     border: 1px solid black;
     display: block;
@@ -37,6 +40,8 @@ h1{
     width: 400px;
     height: 400px;
     background-color: black;
+    float: left;
+    margin-right: 10px;
 }
 .animacion1{
     animation-name: prueba1;
@@ -56,6 +61,9 @@ h1{
     width: 400px;
     height: 400px;
     background-color: black;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .animacion2{
     animation-name: prueba2;
@@ -82,4 +90,30 @@ h1{
     87.5% {background-color: hsl(315, 100%, 50%); transform: translate(0px, 350px);}
     93.75% {background-color: hsl(337.5, 100%, 50%); transform: translate(350px, 350px);}
     100% {background-color: hsl(360, 100%, 50%); transform: translate(0px, 0px);}
+}
+.n3{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    float: left;
+    margin-left: 10px;
+}
+.animacion3{
+    animation-name: prueba3;
+    animation-duration: 3s;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(0, 100%, 50%);
+    animation-iteration-count: infinite;
+}
+@keyframes prueba3 {
+    25% {background-color: hsl(90, 100%, 50%); border-radius: 100%; transform: translate(350px, 0px);}
+    50% {background-color: hsl(180, 100%, 50%); border-radius: 0%; transform: translate(350px, 350px);}
+    75% {background-color: hsl(270, 100%, 50%); border-radius: 100%; transform: translate(0px, 350px);}
+    100% {background-color: hsl(360, 100%, 50%); border-radius: 0%; transform: translate(0px, 0px);}
+}
+.container{
+    width: 1240px;
+    margin: auto;
+    overflow: hidden;
 }
